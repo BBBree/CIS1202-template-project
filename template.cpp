@@ -11,14 +11,16 @@
 
 using namespace std;
 
-//This template will work with floats and doubles
+//This template will work with floats and doubles (generic)
 template <typename type>
 type half(type num)
 {
 	return num / 2;
 }
 
-//This template (function) will work with ints
+//This template (function) will work with ints 
+//I WAS GETTING COMPILER ERRORS WHEN I TRIED
+//int divide<int>(int num){function}
 
 int halfInt(int num)
 {
